@@ -13,6 +13,6 @@ A little Bash script that checks if a server is UP or DOWN, and sends a mail wit
 
 http://angristan.fr/contact/
 
-## Lisence
+## License
 
 GPL
