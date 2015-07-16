@@ -38,4 +38,4 @@ http://angristan.fr/contact/
 
 ## License
 
-GPL
+[GNU GPL v2.0](https://github.com/Angristan/server-status/blob/master/LICENSE)
