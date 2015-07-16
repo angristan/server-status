@@ -17,13 +17,24 @@ A little Bash script that checks if a server is UP or DOWN, and sends a mail wit
 
 `chmod +x check.sh`
 
-To run the script : `./check.sh` or `bash check.sh`
 
 ## Usage
 
+To run the script : `./check.sh` or `bash check.sh`
+
+To run the script automatically :
+
+`crontab -e`
+
+Add:
+
+`*/1 * * * * bash /path/to/check.sh`
+
+This will run the script every minute.
+
 ## Contact
 
-[angristan.fr/contact](http://angristan.fr/contact/)
+http://angristan.fr/contact/
 
 ## License
 
