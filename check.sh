@@ -1,11 +1,11 @@
 #!/bin/bash
 IP="IP or domain"
 mail="the email adress that will receive mails"
-status=`fping $IP`
-status=`echo $status | awk '{print $3}'`
+status=$(fping $IP)
+status=$(echo $status | awk '{print $3}')
 if [ -e /tmp/status-$IP.txt ]
   then
-    laststatus=`cat /tmp/status-$IP.txt`
+    laststatus=$(cat /tmp/status-$IP.txt)
     if [[ $laststatus != $status ]]
       then
         echo $status > /tmp/status-$IP.txt
