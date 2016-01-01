@@ -36,4 +36,4 @@ This will run the script every minute.
 
 ## License
 
-[GNU GPL v2.0](https://github.com/Angristan/server-status/blob/master/LICENSE)
+[The unlicense](https://github.com/Angristan/server-status/blob/master/LICENSE) : Do whatever you want with the code.
