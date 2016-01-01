@@ -13,9 +13,10 @@ A little Bash script that checks if a server is UP or DOWN, and sends a mail wit
 
 ### Download the script
 
-`wget https://raw.githubusercontent.com/Angristan/server-status/master/check.sh`
-
-`chmod +x check.sh`
+```
+wget https://raw.githubusercontent.com/Angristan/server-status/master/check.sh
+chmod +x check.sh
+```
 
 
 ## Usage
@@ -32,9 +33,6 @@ Add:
 
 This will run the script every minute.
 
-## Contact
-
-http://angristan.fr/contact/
 
 ## License
 
